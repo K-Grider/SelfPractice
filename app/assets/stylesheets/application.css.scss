@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+ 
+ @import 'bootstrap-sprockets';
+ @import 'bootstrap';
+
+/*font-family: 'Just Another Hand', cursive;
+  font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Cabin', sans-serif;*/
+
+h1 {
+  font-family: 'Just Another Hand', cursive;
+}
