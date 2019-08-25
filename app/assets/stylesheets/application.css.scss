@@ -16,11 +16,35 @@
  
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
+ @import 'font-awesome-sprockets';
+ @import 'font-awesome';
 
 /*font-family: 'Just Another Hand', cursive;
   font-family: 'Covered By Your Grace', cursive;
   font-family: 'Cabin', sans-serif;*/
 
-h1 {
-  font-family: 'Just Another Hand', cursive;
+.navbar {
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(69,21,6,1) 35%, rgba(5,85,168,1) 80%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(69,21,6,1) 35%, rgba(5,85,168,1) 80%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(69,21,6,1) 35%, rgba(5,85,168,1) 80%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: white;
+  &:hover {
+    color: white;
+    opacity: 0.70;
+  }
+}
+
+
+
+
+
+
+h1, h3 {
+  font-family: 'Cabin', sans-serif;
+  margin-top: -10px;
 }
